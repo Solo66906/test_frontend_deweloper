@@ -151,3 +151,107 @@ body {
   border: 0px;
   background: #fff;
 }
+
+.social {
+  margin: 82px auto 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 42px 40px;
+  max-width: 996px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 40px;
+  background: #fff;
+  -webkit-box-shadow: 0px 20px 60px 0px rgba(26, 26, 26, 0.05);
+          box-shadow: 0px 20px 60px 0px rgba(26, 26, 26, 0.05);
+}
+.social .social_left p {
+  font-size: 15px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.social .social_left h2 {
+  font-size: 40px;
+  line-height: 120%;
+}
+.social .social_right-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social .social_right-list .social_right-list-item {
+  margin-right: 14px;
+}
+.social .social_right-list .social_right-list-item:last-child {
+  margin-right: 0;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+}
+.slider .slider_item .slider_item-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 160px;
+  border-radius: 16px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+}
+.slider .slider_item .slider_item-card .slider_item-card_headind {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.slider .slider_item .slider_item-card .slider_item-card_headind_odd {
+  width: 50%;
+}
+.slider .slider_item .slider_item-card .slider_item-card_discription {
+  color: #949494;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.slider .slider_item .slider_item-card .slider_item-card_discription {
+  width: 50%;
+}
+.slider .slider_item .slider_item-card-odd {
+  background-image: url(./img/faq.svg);
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -22px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+}
+.slider .slick-next {
+  width: 44px;
+  height: 44px;
+  right: 0;
+  background: url(./img/big.svg) 0 0/100% no-repeat;
+  border: 0px;
+}
+.slider .slick-prev {
+  display: none;
+}
