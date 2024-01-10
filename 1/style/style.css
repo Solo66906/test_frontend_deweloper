@@ -63,7 +63,9 @@ body {
 }
 
 .header {
-  background: #93BBEA;
+  background: url(./img/suport/right.svg) no-repeat #93BBEA;
+  background-position: right;
+  background-position-y: bottom;
   border-radius: 40px;
 }
 .header .header_text {
@@ -108,11 +110,13 @@ body {
 }
 .header .header_text .header-center .header_text-heading {
   line-height: 120%;
+  width: 100%;
+  text-align: center;
 }
 .header .header_text .header-center .header_text-discription {
   text-align: center;
   font-size: 17px;
-  width: 535px;
+  width: 100%;
   line-height: 140%;
   margin-bottom: 40px;
 }
@@ -183,11 +187,6 @@ body {
   font-size: 15px;
   line-height: 120%;
   margin-bottom: 16px;
-}
-.social .social_left h2 {
-  margin: 0;
-  font-size: 40px;
-  line-height: 120%;
 }
 .social .social_right-list {
   display: -webkit-box;
