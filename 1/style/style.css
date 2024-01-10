@@ -214,10 +214,11 @@ body {
   position: relative;
 }
 .slider .slider_item .slider_item-card {
+  margin-right: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 280px;
   height: 160px;
   border-radius: 16px;
   background: #fff;
@@ -226,6 +227,7 @@ body {
   padding: 16px;
 }
 .slider .slider_item .slider_item-card .slider_item-card_headind {
+  width: 250px;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -244,8 +246,10 @@ body {
 .slider .slider_item .slider_item-card .slider_item-card_discription {
   width: 50%;
 }
-.slider .slider_item .slider_item-card-odd {
+.slider .slider_item .slider_item-card_odd {
   background-image: url(./img/faq.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .slider .slick-arrow {
   position: absolute;

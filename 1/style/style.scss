@@ -164,14 +164,16 @@ body {
   position: relative;
   .slider_item {
     .slider_item-card{
+      margin-right: 24px;
       display: flex;
-      width: 80%;
+      width: 280px;
       height: 160px;
       border-radius: 16px;
       background: $--gray-0-white;
       box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
       padding: 16px;
       .slider_item-card_headind {
+        width: 250px;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
@@ -191,8 +193,10 @@ body {
         width: 50%;
       }
     }
-    .slider_item-card-odd {
+    .slider_item-card_odd {
       background-image: url(./img/faq.svg);
+      background-repeat: no-repeat;
+      background-position: right;
     }
   }
   .slick-arrow {

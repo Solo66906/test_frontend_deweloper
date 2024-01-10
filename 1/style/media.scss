@@ -34,10 +34,28 @@ $--sky-colors: #93BBEA;
     margin-top: 20px;
   }
 }
+@media all and (min-width: 0px) and (max-width: 610px) {
+  .help {
+    #accordion {
+      .heading {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
 @media all and (min-width: 0px) and (max-width: 520px) {
   .social_right-list {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .help {
+    #accordion {
+      .heading {
+        font-size: 90%;
+      }
+    }
   }
 }
 @media all and (min-width: 0px) and (max-width: 430px) {
@@ -45,9 +63,23 @@ $--sky-colors: #93BBEA;
     font-size: 30px;
     margin-top: 20px;
   }
+  .help {
+    #accordion {
+      .heading {
+        font-size: 70%;
+      }
+    }
+  }
 }
 @media all and (min-width: 0px) and (max-width: 400px) {
   .header_text-heading {
     font-size: 45px;
+  }
+  .help {
+    #accordion {
+      .heading {
+        font-size: 60%;
+      }
+    }
   }
 }
