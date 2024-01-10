@@ -1,0 +1,25 @@
+@media all and (min-width: 0px) and (max-width: 1000px) {
+  .text {
+    width: 50em;
+  }
+  .footer-text {
+    width: 50em;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 900px) {
+  .footer .footer_conteiner .footer-links .footer-list .list-item .messange {
+    padding: 15px;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 850px) {
+  .text {
+    width: 25em;
+  }
+  .header .header_heading {
+    width: 100em;
+    font-size: 20px;
+  }
+  .footer .footer_conteiner .footer-links .footer-list .list-item .messange p {
+    display: none;
+  }
+}
